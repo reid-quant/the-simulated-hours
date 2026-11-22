@@ -1,0 +1,58 @@
+inputs: start 0.884 of the record, CAPE at start 35.9, 1714 real 3-year stretches, drag -12% over 3 years (slope -0.156)
+SIMULATION RESULTS (20,000 runs, 3 years)
+1. Dot-com sized crash (touches the red line): 5.6 in 100
+2. Bear market (20% below the record): 54.3 in 100
+3. Back above the gold line after 3 years: 49.6 in 100; middle run ends at 100% of the record
+4. Dial at zero: crash 4.2, back 56.8 | dial at max: crash 7.0, back 38.2
+5. Back-test Mar 2000: 6.0 in 100 for the real 42% fall (1395 stretches, CAPE 43.2)
+6. Back-test Sep 1929: 0.0 in 100 for the real 85% fall (549 stretches, CAPE 32.6)
+7. Wall Street average target for Dec 2027 (8,638, 1.105x the record): 13.2 in 100
+
+--- record check ---
+months at least as expensive as now (CAPE >= 35.9) with 3 years of history after: 42 months, years ['1998', '1999', '2000', '2001', '2021', '2022']; higher 3 years later in 36%
+  CAPE >= 30: 1929-1930: 2 months, higher 3y later in 0%
+  CAPE >= 30: 1996-2002: 55 months, higher 3y later in 38%
+  CAPE >= 30: 2017-2024: 45 months, higher 3y later in 100%
+  CAPE >= 32.5: 1929-1930: 1 months, higher 3y later in 0%
+  CAPE >= 32.5: 1996-2002: 45 months, higher 3y later in 33%
+  CAPE >= 32.5: 2017-2024: 19 months, higher 3y later in 100%
+all history: 3y later higher in 71%; ever fell 42% from a start: 4.3%
+
+--- dial sweep ---
+dial    0: crash   4.2  bear  47.6  back  56.8  median end 1.06
+dial  0.5: crash   5.6  bear  54.3  back  49.6  median end 1.00
+dial    1: crash   7.0  bear  60.2  back  38.2  median end 0.93
+dial  1.5: crash   8.3  bear  65.6  back  29.7  median end 0.88
+dial    2: crash  10.9  bear  72.1  back  20.4  median end 0.82
+dial    3: crash  17.8  bear  83.2  back   9.7  median end 0.73
+dial    4: crash  28.6  bear  90.6  back   3.5  median end 0.64
+dial    5: crash  41.6  bear  96.0  back   0.9  median end 0.57
+dial    6: crash  56.8  bear  98.9  back   0.0  median end 0.50
+dial    8: crash  88.8  bear 100.0  back   0.0  median end 0.39
+dial   10: crash  98.9  bear 100.0  back   0.0  median end 0.30
+
+--- targets by month 13 ---
+target 1.00x record: 32.9
+target 1.03x record: 26.0
+target 1.05x record: 22.2
+target 1.08x record: 16.9
+target 1.10x record: 14.1
+target 1.15x record: 7.6
+
+--- vary every assumption by up to half (300 sets) ---
+crash: min 1.9  p5 2.3  median 5.5  p95 9.7  max 11.1
+bear: min 32.5  p5 37.4  median 53.6  p95 65.0  max 68.3
+back: min 43.2  p5 45.4  median 49.7  p95 53.3  max 54.6
+  drag only: crash 5.2 to 6.7
+  swing only: crash 2.4 to 9.9
+  timing only: crash 5.2 to 6.0
+
+--- break it on purpose ---
+without 1929, dot-com and 2008 stretches (185 removed): crash 1.00, bear 50.8, back 53.8
+share of crashing stretches that overlap those three: 84% of 98
+only stretches that began after a -8% drop in 2 months (117 stretches): crash 13.0, bear 55.7, back 54.3
+only stretches that began after a -10% drop in 2 months (73 stretches): crash 19.2, bear 60.0, back 49.4
+dial needed for a 50-50 crash: 5.6x the full drag history shows
+seed 1: crash 5.6, bear 53.4, back 49.9
+seed 2: crash 5.8, bear 54.1, back 49.7
+seed 3: crash 5.8, bear 53.9, back 49.3
