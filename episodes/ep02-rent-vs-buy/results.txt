@@ -1,0 +1,43 @@
+HERO NUMBERS (20,000 runs, 10 years, today's dollars)
+1. Renter finishes richer in 68 of 100 futures
+2. Median head start for the renter: $92,389
+   (renter $327,008 vs buyer $267,676)
+3. Same test with a 3% mortgage: buyer finishes richer in 67 of 100
+4. Twist - renter spends the monthly savings instead of investing: ahead in 34 of 100, median gap $-61,551
+5. Stress tests: house-sized rent ($2,450) -> 52 of 100; stocks 4 pts/yr weaker -> 52 of 100
+
+--- stress tests (10 years unless noted) ---
+year-1 owning $37,788 (P&I $2,281/mo) vs renting $23,780; monthly gap $1,167
+history: 47 yrs, mean stock 0.125, home 0.054, cpi 0.037
+10y renter p10/p50/p90 gap: [-142000.   92000.  295000.]
+invest 75% of savings: win 61, med gap 54,164
+invest 50% of savings: win 53, med gap 16,349
+invest 25% of savings: win 44, med gap -23,302
+rent $2200: win 61, med gap 52,287, P/R 15.8
+rent $2450: win 52, med gap 10,328, P/R 14.2
+rent $2700: win 41, med gap -33,860, P/R 12.9
+rent $3000: win 26, med gap -86,019, P/R 11.6
+mortgage 3.00%: win 33, med gap -62,252
+mortgage 4.00%: win 43, med gap -26,920
+mortgage 5.00%: win 52, med gap 8,857
+mortgage 6.00%: win 60, med gap 45,668
+mortgage 6.50%: win 62, med gap 64,500
+refi to 6.00% in yr 3: win 64, med gap 70,908
+refi to 5.50% in yr 3: win 62, med gap 60,697
+refi to 5.00% in yr 3: win 60, med gap 49,900
+5y: win 70, med gap 50,560, med renter 209,402, buyer 172,418
+20y: win 76, med gap 258,747, med renter 709,201, buyer 454,955
+30y: win 84, med gap 759,335, med renter 1,472,172, buyer 676,029
+30y lazy: win 52, med gap 28,042
+rent 2450 + invest half: win 43, med gap -28,881
+stocks -2%/yr: win 60, med gap 48,176
+stocks -3%/yr: win 56, med gap 26,867
+stocks -4%/yr: win 52, med gap 7,961
+stocks -5%/yr: win 47, med gap -10,772
+home prices -2%/yr: win 81
+home prices +2%/yr: win 52
+buyer ahead by $100K+: 16 of 100; renter ahead by $100K+: 48 of 100
+year-1 principal paid $3,208, interest $24,163; selling cost today $25,002
+seed 1: win 67.4, med gap 88,368
+seed 2: win 67.2, med gap 91,167
+seed 3: win 66.9, med gap 88,129
