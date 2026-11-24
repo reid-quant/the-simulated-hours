@@ -18,14 +18,16 @@ How it works, in plain words:
      it finishes above the gold line (the October record).
 
 Data: Robert Shiller's monthly S&P Composite price and CAPE (shillerdata.com,
-ie_data.xls, read 21 Nov 2026), saved here as shiller_monthly.csv.
+ie_data.xls, read 21 Nov 2026), saved here as data/shiller_monthly.csv.
 Prices are monthly averages of daily closes, without dividends.
 
-Usage:  python3 dotcom_crash_stress_test.py shiller_monthly.csv [v] [json]
+Usage:  python sim.py [v] [json] [path/to/shiller_monthly.csv]
         v = also print stress tests;  json = also write the chart data
+        the data file defaults to data/shiller_monthly.csv next to this script
 """
 import csv
 import json
+import os
 import sys
 import numpy as np
 
@@ -126,8 +128,12 @@ def backtest(months, price, cape, when):
 
 
 if __name__ == "__main__":
-    months, price, cape = load(sys.argv[1])
-    verbose = "v" in sys.argv[2:]
+    args = sys.argv[1:]
+    flags = {a for a in args if a in ("v", "json")}
+    paths_ = [a for a in args if a not in flags]
+    data = paths_[0] if paths_ else os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "shiller_monthly.csv")
+    months, price, cape = load(data)
+    verbose = "v" in flags
     h = History(months, price, cape)
     i_last = months.index(LAST_MONTH)
     cape_now = cape[i_last] * START_CLOSE / price[i_last]      # October CAPE moved to Friday's close
@@ -155,7 +161,7 @@ if __name__ == "__main__":
           f"({bt1929[2]} stretches, CAPE {bt1929[3]:.1f})")
     print(f"7. Wall Street average target for Dec 2027 (8,638, {TARGET:.3f}x the record): {base['target']:.1f} in 100")
 
-    if "json" in sys.argv[2:]:
+    if "json" in flags:
         p = simulate(h, cape_now)
         rng = np.random.default_rng(7)
         low = p[:, 1:].min(axis=1)

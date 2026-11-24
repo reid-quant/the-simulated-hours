@@ -1,6 +1,8 @@
-# 01 · The next three years, replayed 20,000 times
+# Episode 01 · Why This Stock Crash Won't Look Like 2000
 
-Code for the simulation in Episode 01 of The Simulated Hours (working title: *I Simulated the Next Stock Market Crash 20,000 Times*).
+**You own this:** if you have money in an S&P 500 index fund, shares are now priced like 2000 — this asks what that really means for it.
+
+Code for the simulation in Episode 01 of The Simulated Hours, *Why This Stock Crash Won't Look Like 2000*: the next three years, replayed 20,000 times.
 
 In October 2026 US shares were more expensive, against ten years of company profits, than at any time since the dot-com peak. By Friday 20 November the S&P 500 had fallen 12% from its record. This model asks two things, starting from that real close:
 
@@ -13,20 +15,20 @@ In October 2026 US shares were more expensive, against ten years of company prof
 
 | File | What it is |
 |---|---|
-| `dotcom_crash_stress_test.py` | The model, the dial, the two back-tests and the stress tests. |
-| `shiller_monthly.csv` | Robert Shiller's monthly S&P Composite price and CAPE, January 1871 to November 2026 ([shillerdata.com](https://shillerdata.com/), read 21 November 2026). The model uses January 1881 to October 2026. |
-| `results.txt` | The script's full output, as used for the numbers in the video. |
+| `sim.py` | The model, the dial, the two back-tests and the stress tests. |
+| `requirements.txt` | The one dependency (NumPy). |
+| `data/shiller_monthly.csv` | Robert Shiller's monthly S&P Composite price and CAPE, January 1871 to November 2026 ([shillerdata.com](https://shillerdata.com/), read 21 November 2026). The model uses January 1881 to October 2026. |
+| `results.txt` | The full output of `python sim.py v`, as used for the numbers in the video. |
 
 ## Run it
 
-You need Python 3 and NumPy.
-
 ```
-pip install numpy
-python3 dotcom_crash_stress_test.py shiller_monthly.csv v
+pip install -r requirements.txt && python sim.py
 ```
 
-Leave off the `v` for the seven headline results only. Add `json` to also write the path data used to draw the charts. The random seed is fixed, so you get the same numbers each time.
+`python sim.py v` also prints every stress test (identical to `results.txt`).
+
+Leave off the `v` for the seven headline results only. Add `json` to also write the path data used to draw the charts. The random seed is fixed (`SEED = 20261121`), so you get the same numbers each time.
 
 ## How it works
 
@@ -91,3 +93,7 @@ It can only replay the past. A crash unlike the past is not in the deck.
 | Wall Street target, December 2027 | 8,638 | Average of eight strategists, November 2026 |
 
 Change any of them at the top of the script and see what you get.
+
+---
+
+MODEL · NOT A FORECAST · NOT FINANCIAL ADVICE
