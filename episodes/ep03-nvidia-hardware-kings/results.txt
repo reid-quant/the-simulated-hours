@@ -1,0 +1,27 @@
+=== HERO NUMBERS (baseline, 20,000 runs) ===
+Nvidia now: 48% below its record close
+Episodes: 14 | fast (<=3 yrs): 4 | slow or never: 10
+1. Back at the record within 3 years:  31 in 100
+2. Back within 10 years:               40 in 100
+3. Still not back after 20 years:      47 in 100
+4. Typical wait: fast kind 1.6 yrs | slow kind 21 yrs | runs landing between 3 and 8 yrs: 4.5 in 100
+5. Sam's $100K fund: Nvidia slice $8,190 at the record -> $4,297 now ($3,893 gone)
+   Price halves again from here: 62 in 100 | median further fall 65%
+
+=== THE DIAL: chance the reign survives -> back within 3 years ===
+  dial 10%: back in 3 yrs 10 in 100 | not back after 20 yrs 62 in 100
+  dial 30%: back in 3 yrs 29 in 100 | not back after 20 yrs 48 in 100
+  dial 50%: back in 3 yrs 49 in 100 | not back after 20 yrs 35 in 100
+  dial 70%: back in 3 yrs 69 in 100 | not back after 20 yrs 20 in 100
+  dial 90%: back in 3 yrs 89 in 100 | not back after 20 yrs 7 in 100
+
+=== BREAK IT ON PURPOSE ===
+Count the 2000 bubble once (Cisco only): 4 fast of 11 -> back in 3 yrs 38 in 100
+Delete Nvidia's own two comebacks:       2 fast of 12 -> back in 3 yrs 21 in 100
+Only episodes since 2007:                4 fast of 6 -> back in 3 yrs 61 in 100
+Every assumption nudged by up to half, episodes dropped at random: back in 3 yrs ranges 19 to 39 in 100
+  ...and the most any version put between 3 and 8 years: 9 in 100
+
+=== CHECK AGAINST THE REAL RECORD ===
+Dec 2018, Nvidia down 56%: history then said 2 fast of 12 -> actual: back at the record in about a year and a half
+Oct 2022, Nvidia down 66%: history then said 3 fast of 13 -> actual: back at the record in about a year and a half
