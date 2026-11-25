@@ -6,6 +6,7 @@ The code behind each simulation video on the channel. Every video gets its own f
 |---|---|---|---|
 | 01 | [`episodes/ep01-dotcom-crash/`](episodes/ep01-dotcom-crash/) | *Why This Stock Crash Won't Look Like 2000* | The next three years for US shares, run 20,000 times from the 20 November 2026 close, with one dial for how much expensive prices drag on what follows. Odds, not a forecast and not financial advice. |
 | 02 | [`episodes/ep02-rent-vs-buy/`](episodes/ep02-rent-vs-buy/) | *Why Renting Beats Buying (I Simulated It 20,000 Times)* | Renting and investing the difference versus buying the typical US house, over ten years, replayed 20,000 times from real US years 1976–2022. Odds, not a forecast and not financial advice. |
+| 03 | [`episodes/ep03-nvidia-without-jensen/`](episodes/ep03-nvidia-without-jensen/) | *Jensen Huang Is Gone. I Ran Nvidia's Next 2 Years 20,000 Times.* | Nvidia's share price over the next two years, run 20,000 times from the 18 November 2026 close, with one dial for what losing its founder costs each year. Odds, not a forecast and not financial advice. |
 
 ## Run it
 

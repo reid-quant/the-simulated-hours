@@ -1,0 +1,59 @@
+WHERE THINGS STAND (sourced)
+  record close 6 Oct 2026: market value $5.78 trillion
+  day before the story broke (28 Oct close): $215.38 a share = $5.20 trillion
+  18 Nov close: $150.96 a share = $3.65 trillion
+  fall since the story broke: 30% = $1.56 trillion; since the record: $2.13 trillion
+  climb needed to get back: +43%
+
+THE MARKET DICE: S&P 500 monthly history, Jan 1950 to Sep 2026 (920 months)
+  every real two-year stretch (897 of them): median +18%, one in twenty worse than -20%, one in twenty better than +59%
+  share of real two-year stretches where the market fell: 17%
+
+BASELINE: the next two years played 20,000 times
+  all dice rolling                             back above $215 at two years: 33%   touches it on the way: 51%   ends below today: 44%   ends below half of today: 10%   median $166 ($60 to $427)
+  median market value at two years: $4.0 trillion (nine games in ten between $1.4 and $10.3 trillion)
+  at one year: median $159 ($76 to $307); back above $215: 23%
+  ends above the record value ($239 a share): 26%
+  in games that get back, the typical month it first happens: month 10
+
+THE DIAL: what losing the founder costs, or gives back, each year
+  scandal dip heals (+3.1% a year)             back above $215 at two years: 41%   touches it on the way: 58%   ends below today: 35%   ends below half of today: 7%   median $189 ($67 to $477)
+  nothing: the price already has it right      back above $215 at two years: 36%   touches it on the way: 54%   ends below today: 40%   ends below half of today: 9%   median $175 ($62 to $440)
+  a little: loses 4.4% a year                  back above $215 at two years: 30%   touches it on the way: 49%   ends below today: 45%   ends below half of today: 10%   median $162 ($58 to $407)
+  a lot: loses 8.3% a year                     back above $215 at two years: 25%   touches it on the way: 44%   ends below today: 52%   ends below half of today: 13%   median $147 ($53 to $377)
+  disaster: loses 15% a year                   back above $215 at two years: 18%   touches it on the way: 35%   ends below today: 62%   ends below half of today: 19%   median $127 ($46 to $321)
+
+REAL-RECORD CHECKS
+  analysts' new 12-month targets run $185 to $300; average target $255.76
+    model at 12 months: median $159; chance of reaching the lowest target $185: 36%; the average $256: 12%; the highest $300: 6%
+  price tag check: today's price is 16.2 times last year's profit per share ($9.31).
+    the old price $215.38 would be 23.1 times last year's profit, or 15.5 times next year's forecast profit ($13.89)
+  Nvidia's own past: three falls of more than 35% in the last decade were followed by an average +305% in two years (Motley Fool, Apr 2025).
+    model's chance of +305% in two years: 1.1%. The model would have been far too gloomy about those three. None of them involved losing the founder.
+  founder shock studies: sudden death of a founder CEO moves shares -3.25% over three days on average (Jenter and co-authors, 2017 working paper). Nvidia fell 30%: this is far outside the usual case.
+
+STRESS TEST 1: every guess range made half as wide again (20,000 games)
+  wider guesses                                back above $215 at two years: 33%   touches it on the way: 51%   ends below today: 43%   ends below half of today: 10%   median $167 ($58 to $431)
+  500 small re-runs, each with every guess nudged at random by up to half:
+    chance of being back at two years ranged from 19% to 46% (middle 90%: 23% to 42%); below a coin flip in 100% of re-runs
+
+STRESS TEST 2: break it on purpose
+  no market at all (flat for two years)        back above $215 at two years: 12%   touches it on the way: 25%   ends below today: 65%   ends below half of today: 14%   median $125 ($57 to $269)
+  Nvidia moves only as much as the market      back above $215 at two years: 23%   touches it on the way: 39%   ends below today: 52%   ends below half of today: 10%   median $148 ($62 to $337)
+  Nvidia swings 2.25x the market (published)   back above $215 at two years: 39%   touches it on the way: 58%   ends below today: 39%   ends below half of today: 10%   median $182 ($56 to $500)
+  no legal or export blow possible             back above $215 at two years: 35%   touches it on the way: 53%   ends below today: 41%   ends below half of today: 9%   median $171 ($62 to $433)
+  luck dice tilted kinder (median-fair)        back above $215 at two years: 39%   touches it on the way: 57%   ends below today: 36%   ends below half of today: 7%   median $185 ($66 to $468)
+  flip the dial: founder edge GAINED, +8.3%    back above $215 at two years: 47%   touches it on the way: 64%   ends below today: 29%   ends below half of today: 6%   median $206 ($73 to $522)
+  start from the 17 Nov close, $155.46         back above $215 at two years: 34%   touches it on the way: 53%   ends below today: 42%   ends below half of today: 9%   median $171 ($60 to $435)
+  getting back becomes a coin flip only if life after the founder ADDS 11% a year
+  by the market you happen to get (same game, sorted by the market's two years):
+    worst third of markets   back above $215: 11%   median $114
+    middle third             back above $215: 30%   median $168
+    best third of markets    back above $215: 57%   median $235
+
+RETIREMENT-ACCOUNT CHAPTER (plain arithmetic, no dice)
+  Nvidia's share of the S&P 500 on 12 Nov: 6.14% (sourced). Worked back to 28 Oct: about 7.8% (derived, other stocks held still)
+  Nvidia's fall since the story broke (29.9%) took about 2.3% off an S&P 500 fund = $2,338 per $100,000, from this one stock alone
+  from here: Nvidia is about 5.6% of the index, so another 10% fall costs about $558 per $100,000
+
+saved sample_paths.json (real runs of the model, for drawing the scenes)
